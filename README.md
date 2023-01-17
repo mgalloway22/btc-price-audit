@@ -1,6 +1,10 @@
 # Overview
 Hisotrical price auditor for BTC
 
+## Compatibility
+
+This script was built with python version `3.9.12`
+
 ## Set up
 
 ```bash
@@ -14,7 +18,7 @@ No user or authentication is required. All quote information is obtained via the
 To run the application simpley run the following command:
 
 ```bash
-$ python3 btc-price-audit.py
+$ python3 btc-price-auditor.py
 ```
 
 This script will automatically create a csv file (and replace if exists) named `price-history.csv`. The script will accept a start and end date, and generate an hourly price history for `BTC-USD` between start and end date. 
